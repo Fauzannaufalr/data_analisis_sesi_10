@@ -8,7 +8,7 @@ data = pd.read_excel("datasets.xlsx", sheet_name="Worksheet")
 
 with st.sidebar:
     st.title('Tugas Sesi 10')
-    st.write('1. 240434006 - Fahri Prawira')
+    st.write('1. 240434006 - Fahri Prawirakusuma')
     st.write('2. 240434001 - Fauzan Naufal Nur Ramadhani')
 
 
