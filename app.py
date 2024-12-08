@@ -6,6 +6,9 @@ import plotly.express as px
 
 data = pd.read_excel("datasets.xlsx", sheet_name="Worksheet")
 
+st.header('Tabel Dataset')
+st.table(data=data)
+
 with st.sidebar:
     st.title('Tugas Sesi 10')
     st.write('1. 240434006 - Fahri Prawirakusuma')
